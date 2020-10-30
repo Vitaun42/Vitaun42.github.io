@@ -87,6 +87,8 @@ function game(userChoice) {
         case "wr":
         case "rs":
         case "rf":
+        case "lw":
+        case "lr":
             win(userChoice, ComputerChoice);
             break;
         case "lf":
@@ -97,6 +99,8 @@ function game(userChoice) {
         case "rw":
         case "sr":
         case "fr":
+        case "wl":
+        case "rl":
             lose(userChoice, ComputerChoice);
             break;
         case "ff":
